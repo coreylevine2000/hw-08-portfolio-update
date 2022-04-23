@@ -1,3 +1,6 @@
+*{
+    text-align: center;
+}
 body {
     font-size: 28px;
   }
@@ -42,7 +45,23 @@ body {
   }
 
   .column {
+      
     border: 5px;
     border-color: black;
     margin: 20px;
   }
+
+
+.homework {
+    width: 350px;
+    height: 300px;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+img:hover{
+    transform: scale(1.5);
+    transition: .3s;
+    margin: 80px;
+    }
