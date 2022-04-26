@@ -1,6 +1,8 @@
 *{
     background-color: skyblue;
+    text-align: center;
 }
+
 
 body {
     font-size: 28px;
@@ -49,32 +51,39 @@ body {
 
   .column {
       
-    border: 5px;
+    border: 100px;
     border-color: black;
     margin: 20px;
+    color: black;
+    padding-right: 25px;
     text-align: center;
   }
 
 .bio-title{
-    width: 300px;
+    width: 600px;
 }
 
 .porfolio-main {
+    width: 100px;
     display: flex;
-    float: right;
 }
 
 .protfolio-info{
     background-color: skyblue;
 }
 
+.subtext{
+    font-size: 14px;
+}
+
 .homework {
-    width: 350px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
     justify-content: space-between;
     margin: 20px;
 
 }
+
 
 .homework:hover{
     transform: scale(1.5);
@@ -84,28 +93,39 @@ body {
     color: skyblue;
     }
 
-    .images {
+.images {
         display: flex;
         justify-content: center;
         margin: 5px;
+        background-image: url(https://www.itprotoday.com/sites/itprotoday.com/files/programming.jpg);
         }
         
-        .image-1{
+.image-1{
             height: 600px;
             width: 600px;
         }
         
-        .image-2{
+.image-2{
             display: none;
             height: 600px;
             width: 600px;
         }
-        
-        .image-3 {
+
+.image-3 {
             display: none;
             height: 600px;
             width: 600px;
         }
+
+ul.no-bullets {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+    footer {
+        font-size: 12px;
+    }
         
     @media screen and (max-width: 1265px) {
         .image-1{
