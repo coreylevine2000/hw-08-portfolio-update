@@ -85,7 +85,9 @@ h3 {
     }
 
 .homework:hover + .details{
-    display: block;
+    display:block;
+    width: 400px;
+    text-align: center;
        }
 
 .images {
