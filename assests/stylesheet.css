@@ -58,6 +58,12 @@ body {
 .bio-title{
     width: 300px;
 }
+
+.porfolio-main {
+    display: flex;
+    float: right;
+}
+
 .protfolio-info{
     background-color: skyblue;
 }
@@ -77,3 +83,48 @@ body {
     opacity: 0.2;
     color: skyblue;
     }
+
+    .images {
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        }
+        
+        .image-1{
+            height: 600px;
+            width: 600px;
+        }
+        
+        .image-2{
+            display: none;
+            height: 600px;
+            width: 600px;
+        }
+        
+        .image-3 {
+            display: none;
+            height: 600px;
+            width: 600px;
+        }
+        
+    @media screen and (max-width: 1265px) {
+        .image-1{
+          display: none;
+        }
+    
+        .image-2{
+            display: block;
+        }
+      }
+      
+      
+    @media screen and (max-width: 863px) {
+        .image-2{
+          display: none;
+        }
+    
+        .image-3{
+            display: block;
+        }
+      }
+      
