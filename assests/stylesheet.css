@@ -1,6 +1,5 @@
 *{
     background-color: skyblue;
-    text-align: center;
 }
 
 
@@ -34,9 +33,6 @@ body {
     background-color: #111;
   }
 
-.main-header {
-    background-color: skyblue;
-}
 
 .containter {
     display: flex;
@@ -68,9 +64,6 @@ body {
     display: flex;
 }
 
-.protfolio-info{
-    background-color: skyblue;
-}
 
 .subtext{
     font-size: 14px;
@@ -148,3 +141,35 @@ ul.no-bullets {
         }
       }
       
+      section {
+        padding: 35px 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+.title {
+            flex: 1 20%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        
+        .title h2 {
+            font-size: xx-large;
+            color: var(--secondary-color);
+            border-right: var(--secondary-color) solid 3px;
+            padding: 0 15px;
+            text-align: right;
+        }
+        
+        .content {
+            flex: 2 70%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-left: 2%
+        }
+        
+        .about p {
+            margin-bottom: 15px;
+        }
